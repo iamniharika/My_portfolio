@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+{% block body %}
+    <style>
+        #project1{
+            /* color: white; */
+            margin: 40px;
+            padding: 20px;
+            width: 400px;
+            display: inline-block;
+            text-align: center;
+            background-image: url("/static/background.jpg");
+            border-radius: 100px;
+            
+        }
+      
+        #project1 h3 {
+            width: 100%; /* make the h2 take up the full width */
+            text-align: center;
+         
+        }
+        #project1 img { /* add this style rule */
+            border-radius: 50%; /* make the image circular */
+            width: 200px; /* set the width and height to maintain aspect ratio */
+            height: 200px;
+        }
+        #project2{
+            margin: 40px;
+            padding: 20px;
+            width: 400px;
+            display: inline-block;
+            text-align: center;
+            background-image: url("/static/background.jpg"); 
+            background-size: cover;
+            border-radius: 100px;
+        }
+        #project2 img { 
+            border-radius: 50%;
+            width: 200px; 
+            height: 200px;
+        }
+        #project3{
+            margin: 40px;
+            padding: 20px;
+            width: 400px;
+            display: inline-block;
+            text-align: center;
+            background-image: url("/static/background.jpg"); 
+            border-radius: 100px;
+        }
+        #project3 img { 
+            border-radius: 50%;
+            width: 200px; 
+            height: 200px;
+        }
+        #project4{
+            margin: 40px;
+            padding: 20px;
+            width: 400px;
+            display: inline-block;
+            text-align: center;
+            background-image: url("/static/background.jpg"); 
+            background-size: cover;
+            border-radius: 100px;
+        }
+        #project4 img { 
+            border-radius: 50%;
+            width: 200px; 
+            height: 200px;
+        }
+        #project5{
+            margin: 40px;
+            padding: 20px;
+            width: 400px;
+            display: inline-block;
+            text-align: center;
+            background-image: url("/static/background.jpg"); 
+            border-radius: 100px;
+        }
+        #project5 img { 
+            border-radius: 50%;
+            width: 200px; 
+            height: 200px;
+        }
+        #project6{
+            margin: 40px;
+            padding: 20px;
+            width: 400px;
+            display: inline-block;
+            text-align: center;
+            background-image: url("/static/background.jpg"); 
+            background-size: cover;
+            border-radius: 100px;
+        }
+        #project6 img { 
+            border-radius: 55%;
+            width: 200px; 
+            height: 200px;
+        }
+    </style>
+    <center><h1 style="color: white;">My Projects</h1></center>
+    <section id="project1">
+        
+        <img src="/static/handwriting.webp" >
+        <h3>AI handwriting recognition</h3>
+        <p>By using advanced machine learning algorithms, it can recognize various writing styles. This technology unlockes the potential of handwritten content.</p>
+        <a href="/static/handwriting.mp4">Click Here </a>
+    </section>
+
+    <section id="project2">
+        
+        <img src="/static/todo.jpg" >
+        <h3>TODO Website</h3>
+        <p>It is your personal assistant for staying organized and productive. Easily create, manage, and prioritize tasks to achieve your goals efficiently. Take control of your day, one task at a time.</p>
+        <a href="/static/todo.mp4">Click Here </a>
+    </section>
+
+    <section id="project3">
+        
+        <img src="/static/face.jfif" >
+        <h3>Face recognition</h3>
+        <p>The technology that identifies and verifies individuals from digital images or video frames. It aims to develop a robust system capable of accurately detecting and matching facial features.</p>
+        <a href="/static/face.mp4">Click Here </a>
+    </section>
+
+    <section id="project4">
+        
+        <img src="/static/safeshe.webp" >
+        <h3>SafeSHE Mobile App</h3>
+        <p>Your guardian angel, always in your pocket. With features like SOS alerts, location sharing, and emergency contacts at your fingertips, you'll feel safe and secure wherever you go. stay alert based on your location and activity level.</p>
+        <a href="/static/safeshe.mp4">Click Here </a>
+    </section>
+
+    <section id="project5">
+        
+        <img src="/static/sentiment.jfif" >
+        <h3>Sentiment Analysis</h3>
+        <p>the power of sentiment analysis to construct a powerful model that can classify social media text as positive, negative, or neutral. This system will unlock valuable insights into public opinion on a range of topics to make informed decisions.</p>
+        <a href="/static/sentiment.mp4">Click Here </a>
+    </section>
+
+    <section id="project6">
+        
+        <img src="/static/calculator.png" >
+        <h3>calculator Website</h3>
+        <p>Experience lightning-fast, accurate calculations right at your fingertips. Our online calculator is your trusted companion for effortlessly handling all your numerical needs. Calculate with ease, precision, and speed.</p>
+        <a href="/static/calculator.mp4">Click Here </a>
+    </section>
+{% endblock body %}

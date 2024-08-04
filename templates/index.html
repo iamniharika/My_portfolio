@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% block body %}
+<style>
+    #name {
+        margin: 50px;
+        max-width: 100%;
+        padding: 50px;
+        text-align: center;
+        color: white;
+    }
+
+    #About {
+        color: white;
+        max-width: 100%;
+        margin: 30px;
+        text-align: center;
+    }
+    #explore{
+        margin: 40px;
+        padding: 50px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    #explore2{
+        margin: 40px;
+        padding: 50px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    #para1 {
+        font-size: 22px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: italic;
+        margin: 10px;
+        padding: 20px;
+    }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+</style>
+
+    <section id="name">
+        <h1 class="typing">I'm Niharika Nagpal</h1>
+    </section>
+    
+    <section id="About">
+        <p id="para1">
+            As an aspiring AI & Data Science Student, I'm fueled by a deep curiosity about the potential of data to unlock
+            groundbreaking solutions. With a solid grasp of Python, Flutter, Figma, Deep Learning, and Machine Learning, I'm
+            eager to develop intelligent systems that tackle complex problems across various industries. From healthcare and
+            finance to sustainability and social good, I believe AI can be a powerful force for positive change. I'm excited
+            to be part of this transformative journey and contribute my skills to creating a better future. Let's connect
+            and innovate together!</p>
+    </section>
+<div class="container">
+    <section class="button-section" id="buttons2">
+        <a href="/templates/projects.html"><button id="explore2" href="">explore My Projects</button></a>
+    </section>
+
+    <section class="button-section" id="buttons">
+        <a href="/templates/skills.html"><button id="explore" href="">explore My Skills</button></a>
+    </section>
+</div>
+    
+
+{% endblock body %}
